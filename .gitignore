@@ -1,22 +1,41 @@
- 
-# Backend
+# Backend (Spring Boot + Kotlin)
 retainer_back/build/
 retainer_back/.gradle/
 retainer_back/bin/
 retainer_back/out/
+retainer_back/.idea/
+retainer_back/HELP.md
+retainer_back/*.iws
+retainer_back/*.iml
+retainer_back/*.ipr
+retainer_back/.apt_generated
+retainer_back/.classpath
+retainer_back/.factorypath
+retainer_back/.project
+retainer_back/.settings/
+retainer_back/.springBeans
+retainer_back/.sts4-cache/
+retainer_back/.kotlin/
 
-# Frontend
+# Frontend (React + TypeScript)  
 retainer-front/node_modules/
 retainer-front/dist/
+retainer-front/build/
 
-# IDE
+# IDE (전체 프로젝트)
 .idea/
 .vscode/
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
+.env.production
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
