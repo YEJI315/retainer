@@ -1,40 +1,41 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Backend (Spring Boot + Kotlin)
+retainer_back/build/
+retainer_back/.gradle/
+retainer_back/bin/
+retainer_back/out/
+retainer_back/.idea/
+retainer_back/HELP.md
+retainer_back/*.iws
+retainer_back/*.iml
+retainer_back/*.ipr
+retainer_back/.apt_generated
+retainer_back/.classpath
+retainer_back/.factorypath
+retainer_back/.project
+retainer_back/.settings/
+retainer_back/.springBeans
+retainer_back/.sts4-cache/
+retainer_back/.kotlin/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Frontend (React + TypeScript)  
+retainer-front/node_modules/
+retainer-front/dist/
+retainer-front/build/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# IDE (전체 프로젝트)
+.idea/
 .vscode/
+*.swp
+*.swo
 
-### Kotlin ###
-.kotlin
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
