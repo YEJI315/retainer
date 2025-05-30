@@ -3,16 +3,16 @@
 
 ## 프로젝트 구조
 retainer/
-├── backend/     # Spring Boot + Kotlin (MSA)
-└── frontend/    # React + TypeScript (Hybrid App)
+├── retainer_back/     # Spring Boot + Kotlin (MSA)
+└── retainer-front/    # React + TypeScript (Hybrid App)
 
 ## 개발 환경 실행
 ```bash
 # 백엔드 실행
-cd backend
+cd retainer_back
 gradlew bootRun
 
-# 프론트엔드 실행
-cd frontend
+# 프론트엔드 실행  
+cd retainer-front
 npm run dev
 

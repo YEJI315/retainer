@@ -1,13 +1,13 @@
  
 # Backend
-backend/build/
-backend/.gradle/
-backend/bin/
-backend/out/
+retainer_back/build/
+retainer_back/.gradle/
+retainer_back/bin/
+retainer_back/out/
 
 # Frontend
-frontend/node_modules/
-frontend/dist/
+retainer-front/node_modules/
+retainer-front/dist/
 
 # IDE
 .idea/
